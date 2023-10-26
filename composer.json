@@ -1,0 +1,22 @@
+{
+    "name": "knownonline/module-outofstock",
+    "description": "Set out of stock items when salable quantity is equal to cero",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Known Online",
+            "email": "desarrollo@knownonline.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Known\\OutOfStock\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "version": "1.0.0"
+}
